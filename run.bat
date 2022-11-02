@@ -7,7 +7,7 @@ pushd %base_dir% 1>nul 2>&1
 
 call .\src\JavaEnv.bat || goto:END
 
-start pythonw .\src\del_images.pyw
+start python .\src\del_images.py
 
 java -classpath ".\bin;.\src\MvCameraControlWrapper.jar;%CLASSPATH%" SaveImage
 
