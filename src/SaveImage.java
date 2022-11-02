@@ -1,14 +1,3 @@
-/***************************************************************************************************
- * @file      SaveImage.java
- * @breif     Use functions provided in MvCameraControlWrapper.jar to save image as JPEG。
- * @author    zhanglei72
- * @date      2020/02/10
- *
- * @warning  
- * @version   V1.0.0  2020/02/10 Create this file
- * @since     2020/02/10
- **************************************************************************************************/
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
