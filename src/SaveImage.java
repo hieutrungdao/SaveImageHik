@@ -278,7 +278,7 @@ public class SaveImage
                     }
                     // Save buffer content to file
                     saveDataToFile(imageBuffer, stSaveParam.imageLen, LocalDateTime.now().toString().replace(":", "_") + ".jpeg");
-                    Thread.sleep(1 * 1000);
+                    Thread.sleep(5 * 1000);
                 }
                 catch (InterruptedException e)
                 {
